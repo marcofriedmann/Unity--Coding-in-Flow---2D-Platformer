@@ -1,0 +1,323 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'de' Physical Memory: 7959 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Programmierung/Unity/Tutorials/Coding in Flow - 2D Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64177
+Successfully changed project path to: C:/Programmierung/Unity/Tutorials/Coding in Flow - 2D Platformer
+C:/Programmierung/Unity/Tutorials/Coding in Flow - 2D Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14860] Host "[IP] 172.30.112.1 [Port] 0 [Flags] 2 [Guid] 264202726 [EditorId] 264202726 [Version] 1048832 [Id] WindowsEditor(7,Dell_Laptop_Gross) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14860] Host "[IP] 172.30.112.1 [Port] 0 [Flags] 2 [Guid] 264202726 [EditorId] 264202726 [Version] 1048832 [Id] WindowsEditor(7,Dell_Laptop_Gross) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 333.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Programmierung/Unity/Tutorials/Coding in Flow - 2D Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3979 MB
+    Driver:   27.20.100.9365
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.039258 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 293.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2227ms)
+		BeginReloadAssembly (345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1491ms)
+			LoadAssemblies (333ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (880ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (294ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.047535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programmierung\Unity\Tutorials\Coding in Flow - 2D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programmierung\Unity\Tutorials\Coding in Flow - 2D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 249.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3681ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2936ms)
+			LoadAssemblies (397ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (677ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (250ms)
+				BeforeProcessingInitializeOnLoad (348ms)
+				ProcessInitializeOnLoadAttributes (781ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.2 KB). Loaded Objects now: 4495.
+Memory consumption went from 150.7 MB to 150.5 MB.
+Total: 10.931800 ms (FindLiveObjects: 0.924300 ms CreateObjectMapping: 0.754100 ms MarkObjects: 8.869700 ms  DeleteObjects: 0.367600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419681.961198 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Green.png
+  artifactKey: Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Green.png using Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9800c5a8920489cd1b81f6a681532f05') in 0.327361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Yellow.png
+  artifactKey: Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Yellow.png using Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a8fb94b71ef8a7f1422fea42c1cb73') in 0.038849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background
+  artifactKey: Guid(e2c5ef056991e3c4b902833ce4b5c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background using Guid(e2c5ef056991e3c4b902833ce4b5c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e132b778f706941d41aae6e9e491670') in 0.007075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Brown.png
+  artifactKey: Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Brown.png using Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfca6a5d016af5e7c79bf20db2d136a') in 0.028227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Purple.png
+  artifactKey: Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Purple.png using Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534e62a6e87ea5167198417d1be0bfa5') in 0.025725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.194955 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
+  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee4f1390eecf80ac7de73436cc09d88') in 0.045449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 499.981073 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
+  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dc601c156d9d5200f6c75657dce6b3') in 0.033849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.819172 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
+  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771fef9eb656553c8cb389c3c76cf076') in 0.029018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 396.948577 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
+  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1425b092f0a3760f16b87442c51f879') in 0.596558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 330.841789 seconds.
+  path: Assets/New Palette.prefab
+  artifactKey: Guid(d5ef7decf761b2944ba32e37565e63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Palette.prefab using Guid(d5ef7decf761b2944ba32e37565e63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEngine.Camera:Render <0x00090>
+	  at UnityEditor.PreviewRenderUtility:Render <0x0043a>
+	  at UnityEditor.GameObjectInspector:DoRenderPreview <0x01a1a>
+	  at UnityEditor.GameObjectInspector:RenderStaticPreview <0x00162>
+	  at UnityEditor.AssetPreviewUpdater:CreatePreview <0x0018f>
+	  at UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset <0x00042>
+	  at <Module>:runtime_invoke_object_object_object_object <0x0008f>
+=================================================================
+Received signal SIGSEGV
+Obtained 73 stack frames
+0x00007ff897df9f6c (igd10iumd64) OpenAdapter10_2
+0x00007ff897df73bc (igd10iumd64) OpenAdapter10_2
+0x00007ff897df71dd (igd10iumd64) OpenAdapter10_2
+0x00007ff897d39a45 (igd10iumd64) 
+0x00007ff897d7dcbf (igd10iumd64) 
+0x00007ff897cb02e8 (igd10iumd64) 
+0x00007ff897cb023a (igd10iumd64) 
+0x00007ff897cb017d (igd10iumd64) 
+0x00007ff897d0b791 (igd10iumd64) 
+0x00007ff8af790588 (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7a699f (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7a6ccc (d3d11) D3D11CoreCreateDevice
+0x00007ff8af79d706 (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7a384d (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7a3ffc (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7b6ef0 (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7b6e57 (d3d11) D3D11CoreCreateDevice
+0x00007ff8af7b6c28 (d3d11) D3D11CoreCreateDevice
+0x00007ff7dafcae58 (Unity) D3D11VertexShader::Create
+0x00007ff7dafc63d8 (Unity) D3D11VertexShader::D3D11VertexShader
+0x00007ff7dadcf4a0 (Unity) CreateGpuProgram
+0x00007ff7db063245 (Unity) GfxDeviceClient::CreateGpuProgram
+0x00007ff7dac686b1 (Unity) ShaderLab::SubProgram::Compile
+0x00007ff7db9513d0 (Unity) FinalizeVariant
+0x00007ff7db9536f8 (Unity) GetSubProgramForShaderSnippet
+0x00007ff7dac68e70 (Unity) ShaderLab::Program::CompileShaderSubProgram
+0x00007ff7dac6a2db (Unity) ShaderLab::Program::GetMatchingSubProgram
+0x00007ff7dac70e7c (Unity) ShaderLab::ShaderState::FindSubProgramsToUse
+0x00007ff7dac6f976 (Unity) ShaderLab::ShaderState::ApplyShaderState
+0x00007ff7dac61077 (Unity) ShaderLab::Pass::ApplyPass
+0x00007ff7dabbf96c (Unity) ApplyMaterialPassWithCache
+0x00007ff7dac37bbf (Unity) Material::SetPassSlowWithShader
+0x00007ff7db5c0552 (Unity) TilemapRendererJobs::GetChunkMaskFromMaterial
+0x00007ff7db5e5bbe (Unity) TilemapRenderer::OnWillRenderObject
+0x00007ff7db5e9398 (Unity) TilemapRenderer::RendererCullingOutputReady
+0x00007ff7da8e1484 (Unity) DispatchGeometryJobs
+0x00007ff7da8bbbd0 (Unity) Camera::CustomRender
+0x00007ff7da8d18bc (Unity) Camera::StandaloneCustomRender
+0x00007ff7da8d1a38 (Unity) Camera::StandaloneRender
+0x00007ff7da8c8abf (Unity) CameraScripting::Render
+0x00007ff7da162344 (Unity) Camera_CUSTOM_Render
+0x000001dc157aebe1 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x000001dc157ade2b (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x000001dc157ad1ab (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
+0x000001dc157a1f93 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000001dcc7a6b2a0 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+0x000001dcc7a6af83 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000001dcc7a6b040 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ff821a9feb4 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ff8219de764 (mono-2.0-bdwgc) [object.c:3066] do_runtime_invoke 
+0x00007ff8219de8fc (mono-2.0-bdwgc) [object.c:3113] mono_runtime_invoke 
+0x00007ff7dae7b394 (Unity) scripting_method_invoke
+0x00007ff7dae5ac34 (Unity) ScriptingInvocation::Invoke
+0x00007ff7dc1c877c (Unity) MonoCreateAssetPreview
+0x00007ff7dc1c7361 (Unity) WriteAssetPreviewToFile
+0x00007ff7dc1c7b06 (Unity) WritePreviews
+0x00007ff7dc1bfd55 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7dc205f6e (Unity) ImportToObjects
+0x00007ff7dc204ed3 (Unity) ImportAsset
+0x00007ff7dc227912 (Unity) AssetImportWorker::Import
+0x00007ff7dc28e7d4 (Unity) <lambda_61a9544df00a9e76ece93a9d8f6ff838>::operator()
+0x00007ff7dc2cf392 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7dc2bb27e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7dc2bcee4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff7dc2cd77e (Unity) IOService::Run
+0x00007ff7dc2a038f (Unity) AssetImportWorkerClient::Run
+0x00007ff7dc26a3d3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff7dc26a45b (Unity) RunAssetImporterV2
+0x00007ff7dba85da8 (Unity) Application::InitializeProject
+0x00007ff7dbeeb0a8 (Unity) WinMain
+0x00007ff7dd29e78e (Unity) __scrt_common_main_seh
+0x00007ff8b4ba7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff8b65c26a1 (ntdll) RtlUserThreadStart
+
